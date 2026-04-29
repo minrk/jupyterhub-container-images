@@ -1,1 +1,4 @@
 jupyterhub>=5.3.0rc0
+# temporary pin: cryptography 47 breaks internal ssl
+# unpin after certipy 0.2.3
+cryptography<47

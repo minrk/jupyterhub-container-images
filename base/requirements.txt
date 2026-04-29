@@ -3,7 +3,6 @@
 # by the following command:
 #
 #    Use the "Run workflow" button at https://github.com/jupyterhub/jupyterhub-container-images/actions/workflows/watch-dependencies.yaml
-
 #
 alembic==1.18.4
     # via jupyterhub
@@ -23,8 +22,10 @@ cffi==2.0.0
     # via cryptography
 charset-normalizer==3.4.7
     # via requests
-cryptography==47.0.0
-    # via certipy
+cryptography==46.0.7
+    # via
+    #   -r requirements.in
+    #   certipy
 fqdn==1.5.1
     # via jsonschema
 greenlet==3.5.0
